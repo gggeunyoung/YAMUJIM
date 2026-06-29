@@ -1,0 +1,938 @@
+{
+  "1": {
+    "city_ko": "도쿄",
+    "country_id": 1,
+    "crime_index": 20.85,
+    "safe_alone_day": 79.22,
+    "safe_alone_night": 73.33,
+    "emergency_contact": "경찰 110 / 구급 119 / 주일대한민국대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "2": {
+    "city_ko": "오사카",
+    "country_id": 1,
+    "crime_index": 29.18,
+    "safe_alone_day": 69.95,
+    "safe_alone_night": 61.69,
+    "emergency_contact": "경찰 110 / 구급 119 / 주오사카한국총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "3": {
+    "city_ko": "후쿠오카",
+    "country_id": 1,
+    "crime_index": 11.53,
+    "safe_alone_day": 84.94,
+    "safe_alone_night": 75.15,
+    "emergency_contact": "경찰 110 / 구급 119 / 주후쿠오카한국총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "4": {
+    "city_ko": "삿포로",
+    "country_id": 1,
+    "crime_index": 4.52,
+    "safe_alone_day": 93.67,
+    "safe_alone_night": 87.24,
+    "emergency_contact": "경찰 110 / 구급 119 / 주삿포로한국총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "5": {
+    "city_ko": "오키나와",
+    "country_id": 1,
+    "crime_index": 15.82,
+    "safe_alone_day": 81.35,
+    "safe_alone_night": 75.1,
+    "emergency_contact": "경찰 110 / 구급 119 / 주오키나와한국총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "6": {
+    "city_ko": "교토",
+    "country_id": 1,
+    "crime_index": 9.12,
+    "safe_alone_day": 89.57,
+    "safe_alone_night": 83.07,
+    "emergency_contact": "경찰 110 / 구급 119 / 주오사카한국총영사관(교토 관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "7": {
+    "city_ko": "나고야",
+    "country_id": 1,
+    "crime_index": 0.0,
+    "safe_alone_day": 98.44,
+    "safe_alone_night": 90.62,
+    "emergency_contact": "경찰 110 / 구급 119 / 주나고야한국총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "8": {
+    "city_ko": "다낭",
+    "country_id": 2,
+    "crime_index": 11.19,
+    "safe_alone_day": 92.07,
+    "safe_alone_night": 72.46,
+    "emergency_contact": "경찰 113 (현지 경찰) / 구급 115 (현지 구급) / 해당 도시는 재외공관이 별도 설치되어 있지 않으며, 필요 시 하노이 대사관 또는 호치민 총영사관으로 문의하시기 바랍니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "9": {
+    "city_ko": "나트랑",
+    "country_id": 2,
+    "crime_index": 21.67,
+    "safe_alone_day": 88.33,
+    "safe_alone_night": 55.83,
+    "emergency_contact": "경찰 113 (현지 경찰) / 구급 115 (현지 구급) / 해당 도시는 재외공관이 별도 설치되어 있지 않으며, 필요 시 하노이 대사관 또는 호치민 총영사관으로 문의하시기 바랍니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "10": {
+    "city_ko": "하노이",
+    "country_id": 2,
+    "crime_index": 28.71,
+    "safe_alone_day": 81.74,
+    "safe_alone_night": 59.23,
+    "emergency_contact": "경찰 113 (현지 경찰) / 구급 115 (현지 구급) / 주베트남 대한민국 대사관(하노이) / 영사콜센터 +82-2-3210-0404"
+  },
+  "11": {
+    "city_ko": "호치민",
+    "country_id": 2,
+    "crime_index": 49.92,
+    "safe_alone_day": 67.23,
+    "safe_alone_night": 41.99,
+    "emergency_contact": "경찰 113 (현지 경찰) / 구급 115 (현지 구급) / 주베트남 대한민국 총영사관(호치민시) / 영사콜센터 +82-2-3210-0404"
+  },
+  "12": {
+    "city_ko": "푸꾸옥",
+    "country_id": 2,
+    "crime_index": 11.19,
+    "safe_alone_day": 92.07,
+    "safe_alone_night": 72.46,
+    "emergency_contact": "경찰 113 (현지 경찰) / 구급 115 (현지 구급) / 해당 도시는 재외공관이 별도 설치되어 있지 않으며, 필요 시 하노이 대사관 또는 호치민 총영사관으로 문의하시기 바랍니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "13": {
+    "city_ko": "사파",
+    "country_id": 2,
+    "crime_index": 28.71,
+    "safe_alone_day": 81.74,
+    "safe_alone_night": 59.23,
+    "emergency_contact": "경찰 113 (현지 경찰) / 구급 115 (현지 구급) / 해당 도시는 재외공관이 별도 설치되어 있지 않으며, 필요 시 하노이 대사관 또는 호치민 총영사관으로 문의하시기 바랍니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "14": {
+    "city_ko": "방콕",
+    "country_id": 3,
+    "crime_index": 38.19,
+    "safe_alone_day": 79.71,
+    "safe_alone_night": 57.87,
+    "emergency_contact": "경찰 191 / 구급 1669 / 주재 한국대사관(Bangkok: Embassy of the Republic of Korea in Bangkok) / 영사콜센터 +82-2-3210-0404"
+  },
+  "15": {
+    "city_ko": "치앙마이",
+    "country_id": 3,
+    "crime_index": 16.93,
+    "safe_alone_day": 92.82,
+    "safe_alone_night": 80.95,
+    "emergency_contact": "경찰 191 / 구급 1669 / 치앙마이주재 대한민국총영사관(Consulate-General of the Republic of Korea in Chiang Mai) / 영사콜센터 +82-2-3210-0404"
+  },
+  "16": {
+    "city_ko": "푸켓",
+    "country_id": 3,
+    "crime_index": 38.22,
+    "safe_alone_day": 82.59,
+    "safe_alone_night": 63.22,
+    "emergency_contact": "경찰 191 / 구급 1669 / 공관 없음(방콕 대사관 또는 치앙마이 총영사관이 관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "17": {
+    "city_ko": "파타야",
+    "country_id": 3,
+    "crime_index": 50.01,
+    "safe_alone_day": 76.61,
+    "safe_alone_night": 52.88,
+    "emergency_contact": "경찰 191 / 구급 1669 / 공관 없음(방콕 대사관 또는 치앙마이 총영사관이 관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "18": {
+    "city_ko": "코사무이",
+    "country_id": 3,
+    "crime_index": 23.75,
+    "safe_alone_day": 93.75,
+    "safe_alone_night": 71.25,
+    "emergency_contact": "경찰 191 / 구급 1669 / 공관 없음(방콕 대사관 또는 치앙마이 총영사관이 관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "19": {
+    "city_ko": "뉴욕",
+    "country_id": 4,
+    "crime_index": 55.3,
+    "safe_alone_day": 68.79,
+    "safe_alone_night": 46.33,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 뉴욕 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "20": {
+    "city_ko": "로스앤젤레스",
+    "country_id": 4,
+    "crime_index": 61.08,
+    "safe_alone_day": 65.9,
+    "safe_alone_night": 41.02,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 로스앤젤레스 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "21": {
+    "city_ko": "샌프란시스코",
+    "country_id": 4,
+    "crime_index": 68.34,
+    "safe_alone_day": 64.58,
+    "safe_alone_night": 35.18,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 샌프란시스코 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "22": {
+    "city_ko": "하와이",
+    "country_id": 4,
+    "crime_index": 51.27,
+    "safe_alone_day": 78.28,
+    "safe_alone_night": 51.28,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 로스앤젤레스 대한민국 총영사관(관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "23": {
+    "city_ko": "시애틀",
+    "country_id": 4,
+    "crime_index": 61.39,
+    "safe_alone_day": 66.33,
+    "safe_alone_night": 38.29,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 시애틀 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "24": {
+    "city_ko": "시카고",
+    "country_id": 4,
+    "crime_index": 77.84,
+    "safe_alone_day": 56.44,
+    "safe_alone_night": 26.96,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 시카고 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "25": {
+    "city_ko": "라스베이거스",
+    "country_id": 4,
+    "crime_index": 65.39,
+    "safe_alone_day": 67.4,
+    "safe_alone_night": 39.35,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 로스앤젤레스 대한민국 총영사관(관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "26": {
+    "city_ko": "세부",
+    "country_id": 5,
+    "crime_index": 52.31,
+    "safe_alone_day": 67.74,
+    "safe_alone_night": 45.3,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 필리핀 대한민국 총영사관(세부) - 세부 지역 및 비섬(Visayas) 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "27": {
+    "city_ko": "보라카이",
+    "country_id": 5,
+    "crime_index": 25.0,
+    "safe_alone_day": 87.5,
+    "safe_alone_night": 70.83,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 필리핀 대한민국 총영사관(세부) - 세부 관할과 연계 / 영사콜센터 +82-2-3210-0404"
+  },
+  "28": {
+    "city_ko": "마닐라",
+    "country_id": 5,
+    "crime_index": 72.95,
+    "safe_alone_day": 54.4,
+    "safe_alone_night": 29.91,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 필리핀 대한민국 대사관 – 마닐라(필리핀 수도권) 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "29": {
+    "city_ko": "보홀",
+    "country_id": 5,
+    "crime_index": 6.82,
+    "safe_alone_day": 97.92,
+    "safe_alone_night": 87.5,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 필리핀 대한민국 총영사관(세부) - 세부 관할과 연계 / 영사콜센터 +82-2-3210-0404"
+  },
+  "30": {
+    "city_ko": "클락",
+    "country_id": 5,
+    "crime_index": 72.95,
+    "safe_alone_day": 54.4,
+    "safe_alone_night": 29.91,
+    "emergency_contact": "경찰 911 / 구급 911 / 주 필리핀 대한민국 대사관 – 마닐라 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "31": {
+    "city_ko": "타이베이",
+    "country_id": 6,
+    "crime_index": 11.35,
+    "safe_alone_day": 92.87,
+    "safe_alone_night": 84.88,
+    "emergency_contact": "경찰 110 / 구급 119 / 타이베이 주재 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "32": {
+    "city_ko": "가오슝",
+    "country_id": 6,
+    "crime_index": 14.41,
+    "safe_alone_day": 86.11,
+    "safe_alone_night": 78.52,
+    "emergency_contact": "경찰 110 / 구급 119 / 해당 도시는 재외공관 관할이 아닙니다(가까운 관할: 타이베이 주재 대한민국 대사관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "33": {
+    "city_ko": "타이중",
+    "country_id": 6,
+    "crime_index": 9.5,
+    "safe_alone_day": 99.02,
+    "safe_alone_night": 89.22,
+    "emergency_contact": "경찰 110 / 구급 119 / 해당 도시는 재외공관 관할이 아닙니다(가까운 관할: 타이베이 주재 대한민국 대사관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "34": {
+    "city_ko": "화롄",
+    "country_id": 6,
+    "crime_index": 11.35,
+    "safe_alone_day": 92.87,
+    "safe_alone_night": 84.88,
+    "emergency_contact": "경찰 110 / 구급 119 / 해당 도시는 재외공관 관할이 아닙니다(가까운 관할: 타이베이 주재 대한민국 대사관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "35": {
+    "city_ko": "타이난",
+    "country_id": 6,
+    "crime_index": 15.79,
+    "safe_alone_day": 81.58,
+    "safe_alone_night": 73.68,
+    "emergency_contact": "경찰 110 / 구급 119 / 해당 도시는 재외공관 관할이 아닙니다(가까운 관할: 타이베이 주재 대한민국 대사관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "36": {
+    "city_ko": "괌",
+    "country_id": 7,
+    "crime_index": 66.67,
+    "safe_alone_day": 50.0,
+    "safe_alone_night": 16.67,
+    "emergency_contact": "경찰 911 / 구급 911 / 호놀룰루 총영사관(미합중국 하와이주 호놀루루) / 영사콜센터 +82-2-3210-0404"
+  },
+  "37": {
+    "city_ko": "싱가포르",
+    "country_id": 8,
+    "crime_index": 19.26,
+    "safe_alone_day": 84.64,
+    "safe_alone_night": 77.8,
+    "emergency_contact": "경찰 경찰 긴급전화 999 (Singapore Police Force) / 구급 응급의료/구급전화 995 / 주 싱가포르 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "38": {
+    "city_ko": "홍콩",
+    "country_id": 9,
+    "crime_index": 17.96,
+    "safe_alone_day": 86.44,
+    "safe_alone_night": 75.98,
+    "emergency_contact": "경찰 999 / 구급 999 / 주 홍콩 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "39": {
+    "city_ko": "로마",
+    "country_id": 10,
+    "crime_index": 50.45,
+    "safe_alone_day": 75.67,
+    "safe_alone_night": 48.55,
+    "emergency_contact": "경찰 112 (유럽 통합 긴급번호, 필요한 경우 112로 전화 후 지역별 지령에 따라 113/1132 등으로 연결될 수 있음) / 구급 118 (의료 긴급) / 주이탈리아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "40": {
+    "city_ko": "피렌체",
+    "country_id": 10,
+    "crime_index": 43.81,
+    "safe_alone_day": 79.23,
+    "safe_alone_night": 48.06,
+    "emergency_contact": "경찰 112 (유럽 통합 긴급번호, 필요한 경우 112로 전화 후 지역별 지령에 따라 113/1132 등으로 연결될 수 있음) / 구급 118 (의료 긴급) / 주이탈리아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "41": {
+    "city_ko": "베네치아",
+    "country_id": 10,
+    "crime_index": 28.8,
+    "safe_alone_day": 82.03,
+    "safe_alone_night": 62.03,
+    "emergency_contact": "경찰 112 (유럽 통합 긴급번호, 필요한 경우 112로 전화 후 지역별 지령에 따라 113/1132 등으로 연결될 수 있음) / 구급 118 (의료 긴급) / 주이탈리아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "42": {
+    "city_ko": "밀라노",
+    "country_id": 10,
+    "crime_index": 61.18,
+    "safe_alone_day": 69.73,
+    "safe_alone_night": 35.41,
+    "emergency_contact": "경찰 112 (유럽 통합 긴급번호, 필요한 경우 112로 전화 후 지역별 지령에 따라 113/1132 등으로 연결될 수 있음) / 구급 118 (의료 긴급) / 주이탈리아 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "43": {
+    "city_ko": "나폴리",
+    "country_id": 10,
+    "crime_index": 68.99,
+    "safe_alone_day": 51.51,
+    "safe_alone_night": 27.32,
+    "emergency_contact": "경찰 112 (유럽 통합 긴급번호, 필요한 경우 112로 전화 후 지역별 지령에 따라 113/1132 등으로 연결될 수 있음) / 구급 118 (의료 긴급) / 주이탈리아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "44": {
+    "city_ko": "아말피",
+    "country_id": 10,
+    "crime_index": 68.99,
+    "safe_alone_day": 51.51,
+    "safe_alone_night": 27.32,
+    "emergency_contact": "경찰 112 (유럽 통합 긴급번호, 필요한 경우 112로 전화 후 지역별 지령에 따라 113/1132 등으로 연결될 수 있음) / 구급 118 (의료 긴급) / 주이탈리아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "45": {
+    "city_ko": "파리",
+    "country_id": 11,
+    "crime_index": 62.31,
+    "safe_alone_day": 63.04,
+    "safe_alone_night": 35.86,
+    "emergency_contact": "경찰 17 / 구급 15 / 주 프랑스 대한민국 대사관(Paris) 또는 재외공관이 관할하며 필요 시 파리 주재 대사관에 문의해 주세요. / 영사콜센터 +82-2-3210-0404"
+  },
+  "46": {
+    "city_ko": "니스",
+    "country_id": 11,
+    "crime_index": 56.78,
+    "safe_alone_day": 60.92,
+    "safe_alone_night": 39.11,
+    "emergency_contact": "경찰 17 / 구급 15 / 해당 도시에 재외공관이 상주하지 않으며 파리 주재 대사관/총영사관의 관할 아래 있습니다. 필요 시 파리 대사관으로 문의 권고. / 영사콜센터 +82-2-3210-0404"
+  },
+  "47": {
+    "city_ko": "리옹",
+    "country_id": 11,
+    "crime_index": 62.58,
+    "safe_alone_day": 60.1,
+    "safe_alone_night": 32.43,
+    "emergency_contact": "경찰 17 / 구급 15 / 해당 도시에 재외공관이 상주하지 않으며 파리 주재 대사관/총영사관의 관할 아래 있습니다. 필요 시 파리 대사관으로 문의 권고. / 영사콜센터 +82-2-3210-0404"
+  },
+  "48": {
+    "city_ko": "마르세유",
+    "country_id": 11,
+    "crime_index": 72.57,
+    "safe_alone_day": 48.82,
+    "safe_alone_night": 26.07,
+    "emergency_contact": "경찰 17 / 구급 15 / 주 프랑스 대한민국 총영사관(Marseille) 또는 관할 공관에 해당합니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "49": {
+    "city_ko": "스트라스부르",
+    "country_id": 11,
+    "crime_index": 39.37,
+    "safe_alone_day": 76.44,
+    "safe_alone_night": 48.92,
+    "emergency_contact": "경찰 17 / 구급 15 / 해당 도시에 재외공관이 상주하지 않으며 파리 주재 대사관/총영사관의 관할 아래 있습니다. 필요 시 파리 대사관으로 문의 권고. / 영사콜센터 +82-2-3210-0404"
+  },
+  "50": {
+    "city_ko": "바르셀로나",
+    "country_id": 12,
+    "crime_index": 57.95,
+    "safe_alone_day": 68.7,
+    "safe_alone_night": 41.86,
+    "emergency_contact": "경찰 112 (유럽 전역 긴급전화) / 현지 경찰번호는 도시별로 다름(일반적으로 091, 092 등) / 구급 112 (구급차 긴급전화) / 주 바르셀로나 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "51": {
+    "city_ko": "마드리드",
+    "country_id": 12,
+    "crime_index": 25.76,
+    "safe_alone_day": 87.61,
+    "safe_alone_night": 70.04,
+    "emergency_contact": "경찰 112 (유럽 전역 긴급전화) / 현지 경찰번호는 도시별로 다름(일반적으로 091, 092 등) / 구급 112 (구급차 긴급전화) / 주 스페인 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "52": {
+    "city_ko": "세비야",
+    "country_id": 12,
+    "crime_index": 35.94,
+    "safe_alone_day": 86.05,
+    "safe_alone_night": 62.18,
+    "emergency_contact": "경찰 112 (유럽 전역 긴급전화) / 현지 경찰번호는 도시별로 다름(일반적으로 091, 092 등) / 구급 112 (구급차 긴급전화) / 해당 도시에 공식 재외공관 없음(마드리드 대사관/바르셀로나 총영사관 이용) / 영사콜센터 +82-2-3210-0404"
+  },
+  "53": {
+    "city_ko": "그라나다",
+    "country_id": 12,
+    "crime_index": 32.04,
+    "safe_alone_day": 83.71,
+    "safe_alone_night": 58.54,
+    "emergency_contact": "경찰 112 (유럽 전역 긴급전화) / 현지 경찰번호는 도시별로 다름(일반적으로 091, 092 등) / 구급 112 (구급차 긴급전화) / 해당 도시에 공식 재외공관 없음(마드리드 대사관/바르셀로나 총영사관 이용) / 영사콜센터 +82-2-3210-0404"
+  },
+  "54": {
+    "city_ko": "말라가",
+    "country_id": 12,
+    "crime_index": 29.52,
+    "safe_alone_day": 81.94,
+    "safe_alone_night": 61.55,
+    "emergency_contact": "경찰 112 (유럽 전역 긴급전화) / 현지 경찰번호는 도시별로 다름(일반적으로 091, 092 등) / 구급 112 (구급차 긴급전화) / 해당 도시에 공식 재외공관 없음(마드리드 대사관/바르셀로나 총영사관 이용) / 영사콜센터 +82-2-3210-0404"
+  },
+  "55": {
+    "city_ko": "런던",
+    "country_id": 13,
+    "crime_index": 64.66,
+    "safe_alone_day": 63.19,
+    "safe_alone_night": 37.22,
+    "emergency_contact": "경찰 999 / 구급 999 / 주영대한민국대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "56": {
+    "city_ko": "에든버러",
+    "country_id": 13,
+    "crime_index": 29.87,
+    "safe_alone_day": 84.05,
+    "safe_alone_night": 64.1,
+    "emergency_contact": "경찰 999 / 구급 999 / 주영대한민국총영사관 에든버러 / 영사콜센터 +82-2-3210-0404"
+  },
+  "57": {
+    "city_ko": "맨체스터",
+    "country_id": 13,
+    "crime_index": 64.72,
+    "safe_alone_day": 62.81,
+    "safe_alone_night": 33.09,
+    "emergency_contact": "경찰 999 / 구급 999 / 주영대한민국총영사관 맨체스터 / 영사콜센터 +82-2-3210-0404"
+  },
+  "58": {
+    "city_ko": "리버풀",
+    "country_id": 13,
+    "crime_index": 54.7,
+    "safe_alone_day": 69.23,
+    "safe_alone_night": 46.11,
+    "emergency_contact": "경찰 999 / 구급 999 / 주영대한민국총영사관 맨체스터 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "59": {
+    "city_ko": "옥스퍼드",
+    "country_id": 13,
+    "crime_index": 37.71,
+    "safe_alone_day": 74.6,
+    "safe_alone_night": 52.06,
+    "emergency_contact": "경찰 999 / 구급 999 / 주영대한민국대사관(런던) / 영사콜센터 +82-2-3210-0404"
+  },
+  "60": {
+    "city_ko": "인터라켄",
+    "country_id": 14,
+    "crime_index": 20.58,
+    "safe_alone_day": 85.18,
+    "safe_alone_night": 69.25,
+    "emergency_contact": "경찰 117 (스위스 경찰, 비상시 112도 사용 가능) / 구급 144 / 주 스위스 대사관( Bern) 관할으로 안내됩니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "61": {
+    "city_ko": "취리히",
+    "country_id": 14,
+    "crime_index": 20.58,
+    "safe_alone_day": 85.18,
+    "safe_alone_night": 69.25,
+    "emergency_contact": "경찰 117 (스위스 경찰, 비상시 112도 사용 가능) / 구급 144 / 주 스위스 대한민국 총영사관 취리히 / 영사콜센터 +82-2-3210-0404"
+  },
+  "62": {
+    "city_ko": "제네바",
+    "country_id": 14,
+    "crime_index": 28.1,
+    "safe_alone_day": 83.34,
+    "safe_alone_night": 65.29,
+    "emergency_contact": "경찰 117 (스위스 경찰, 비상시 112도 사용 가능) / 구급 144 / 주 스위스 대한민국 총영사관 제네바 / 영사콜센터 +82-2-3210-0404"
+  },
+  "63": {
+    "city_ko": "루체른",
+    "country_id": 14,
+    "crime_index": 23.26,
+    "safe_alone_day": 82.99,
+    "safe_alone_night": 67.54,
+    "emergency_contact": "경찰 117 (스위스 경찰, 비상시 112도 사용 가능) / 구급 144 / 주 스위스 대한민국 대사관( Bern) 관할으로 안내됩니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "64": {
+    "city_ko": "체르마트",
+    "country_id": 14,
+    "crime_index": 16.67,
+    "safe_alone_day": 83.33,
+    "safe_alone_night": 83.33,
+    "emergency_contact": "경찰 117 (스위스 경찰, 비상시 112도 사용 가능) / 구급 144 / 주 스위스 대한민국 대사관( Bern) 관할으로 안내됩니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "65": {
+    "city_ko": "뮌헨",
+    "country_id": 15,
+    "crime_index": 16.84,
+    "safe_alone_day": 88.45,
+    "safe_alone_night": 72.32,
+    "emergency_contact": "경찰 110(현지 경찰) / 구급 112(현지 구급) / 주독일한국총영사관 뮌헨 / 영사콜센터 +82-2-3210-0404"
+  },
+  "66": {
+    "city_ko": "베를린",
+    "country_id": 15,
+    "crime_index": 48.06,
+    "safe_alone_day": 76.15,
+    "safe_alone_night": 49.46,
+    "emergency_contact": "경찰 110(현지 경찰) / 구급 112(현지 구급) / 주독일대사관(한국대사관) 베를린 / 영사콜센터 +82-2-3210-0404"
+  },
+  "67": {
+    "city_ko": "프랑크푸르트",
+    "country_id": 15,
+    "crime_index": 51.7,
+    "safe_alone_day": 69.77,
+    "safe_alone_night": 44.92,
+    "emergency_contact": "경찰 110(현지 경찰) / 구급 112(현지 구급) / 주독일한국총영사관 프랑크푸르트 / 영사콜센터 +82-2-3210-0404"
+  },
+  "68": {
+    "city_ko": "함부르크",
+    "country_id": 15,
+    "crime_index": 41.32,
+    "safe_alone_day": 71.67,
+    "safe_alone_night": 50.53,
+    "emergency_contact": "경찰 110(현지 경찰) / 구급 112(현지 구급) / 주독일한국총영사관 함부르크 / 영사콜센터 +82-2-3210-0404"
+  },
+  "69": {
+    "city_ko": "쾰른",
+    "country_id": 15,
+    "crime_index": 48.84,
+    "safe_alone_day": 73.72,
+    "safe_alone_night": 45.99,
+    "emergency_contact": "경찰 110(현지 경찰) / 구급 112(현지 구급) / 주독일한국총영사관 프랑크푸르트 관할(쾰른) / 영사콜센터 +82-2-3210-0404"
+  },
+  "70": {
+    "city_ko": "쿠알라룸푸르",
+    "country_id": 16,
+    "crime_index": 63.35,
+    "safe_alone_day": 56.67,
+    "safe_alone_night": 31.8,
+    "emergency_contact": "경찰 999 (또는 112 휴대폰 자동장치) / 구급 999 (또는 112) / 대한민국 주말레이시아 대사관(암스테르담?) 명칭은 최신 확인 필요, Kuala Lumpur에 위치한 주재 외교기관으로 보통 대사관입니다. / 영사콜센터 +82-2-3210-0404"
+  },
+  "71": {
+    "city_ko": "코타키나발루",
+    "country_id": 16,
+    "crime_index": 44.7,
+    "safe_alone_day": 72.73,
+    "safe_alone_night": 46.15,
+    "emergency_contact": "경찰 999 (또는 112 휴대폰 자동장치) / 구급 999 (또는 112) / 해당 도시 관할의 대한민국 재외공관 명칭은 최신 확인 필요(일부 도시에는 총영사관이 배치될 수 있습니다). / 영사콜센터 +82-2-3210-0404"
+  },
+  "72": {
+    "city_ko": "페낭",
+    "country_id": 16,
+    "crime_index": 23.88,
+    "safe_alone_day": 85.1,
+    "safe_alone_night": 58.34,
+    "emergency_contact": "경찰 999 (또는 112 휴대폰 자동장치) / 구급 999 (또는 112) / 해당 도시 관할의 대한민국 재외공관 명칭은 최신 확인 필요 / 영사콜센터 +82-2-3210-0404"
+  },
+  "73": {
+    "city_ko": "랑카위",
+    "country_id": 16,
+    "crime_index": 23.88,
+    "safe_alone_day": 85.1,
+    "safe_alone_night": 58.34,
+    "emergency_contact": "경찰 999 (또는 112 휴대폰 자동장치) / 구급 999 (또는 112) / 해당 도시 관할의 대한민국 재외공관 명칭은 최신 확인 필요 / 영사콜센터 +82-2-3210-0404"
+  },
+  "74": {
+    "city_ko": "쿠칭",
+    "country_id": 16,
+    "crime_index": 44.47,
+    "safe_alone_day": 71.67,
+    "safe_alone_night": 51.47,
+    "emergency_contact": "경찰 999 (또는 112 휴대폰 자동장치) / 구급 999 (또는 112) / 해당 도시 관할의 대한민국 재외공관 명칭은 최신 확인 필요 / 영사콜센터 +82-2-3210-0404"
+  },
+  "75": {
+    "city_ko": "시드니",
+    "country_id": 17,
+    "crime_index": 33.77,
+    "safe_alone_day": 79.61,
+    "safe_alone_night": 54.49,
+    "emergency_contact": "경찰 000 / 구급 000 / 시드니에 있는 대한민국 총영사관(해외공관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "76": {
+    "city_ko": "멜버른",
+    "country_id": 17,
+    "crime_index": 46.15,
+    "safe_alone_day": 72.24,
+    "safe_alone_night": 42.82,
+    "emergency_contact": "경찰 000 / 구급 000 / 멜버른에 있는 대한민국 총영사관(해외공관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "77": {
+    "city_ko": "브리즈번",
+    "country_id": 17,
+    "crime_index": 38.11,
+    "safe_alone_day": 78.26,
+    "safe_alone_night": 49.21,
+    "emergency_contact": "경찰 000 / 구급 000 / 브리즈번에 있는 대한민국 총영사관(해외공관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "78": {
+    "city_ko": "케언즈",
+    "country_id": 17,
+    "crime_index": 67.38,
+    "safe_alone_day": 54.29,
+    "safe_alone_night": 27.33,
+    "emergency_contact": "경찰 000 / 구급 000 / 케언즈는 브리즈번 총영사관 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "79": {
+    "city_ko": "골드코스트",
+    "country_id": 17,
+    "crime_index": 51.36,
+    "safe_alone_day": 71.13,
+    "safe_alone_night": 41.06,
+    "emergency_contact": "경찰 000 / 구급 000 / 골드코스트는 브리즈번 총영사관 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "80": {
+    "city_ko": "밴쿠버",
+    "country_id": 18,
+    "crime_index": 44.74,
+    "safe_alone_day": 77.63,
+    "safe_alone_night": 54.03,
+    "emergency_contact": "경찰 911 / 구급 911 / 주밴쿠버 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "81": {
+    "city_ko": "토론토",
+    "country_id": 18,
+    "crime_index": 48.09,
+    "safe_alone_day": 73.95,
+    "safe_alone_night": 51.78,
+    "emergency_contact": "경찰 911 / 구급 911 / 주토론토 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "82": {
+    "city_ko": "몬트리올",
+    "country_id": 18,
+    "crime_index": 31.23,
+    "safe_alone_day": 86.3,
+    "safe_alone_night": 65.74,
+    "emergency_contact": "경찰 911 / 구급 911 / 주몬트리올 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "83": {
+    "city_ko": "퀘벡",
+    "country_id": 18,
+    "crime_index": 17.43,
+    "safe_alone_day": 86.84,
+    "safe_alone_night": 77.72,
+    "emergency_contact": "경찰 911 / 구급 911 / 주몬트리올 대한민국 총영사관(퀘벡주 관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "84": {
+    "city_ko": "밴프",
+    "country_id": 18,
+    "crime_index": 21.88,
+    "safe_alone_day": 96.88,
+    "safe_alone_night": 68.75,
+    "emergency_contact": "경찰 911 / 구급 911 / 주밴쿠버 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "85": {
+    "city_ko": "상하이",
+    "country_id": 19,
+    "crime_index": 21.98,
+    "safe_alone_day": 79.95,
+    "safe_alone_night": 71.58,
+    "emergency_contact": "경찰 110 / 구급 120 / 주중 대한민국 총영사관(상하이) / 영사콜센터 +82-2-3210-0404"
+  },
+  "86": {
+    "city_ko": "베이징",
+    "country_id": 19,
+    "crime_index": 20.31,
+    "safe_alone_day": 79.5,
+    "safe_alone_night": 71.08,
+    "emergency_contact": "경찰 110 / 구급 120 / 주중 대한민국 대사관(베이징) / 영사콜센터 +82-2-3210-0404"
+  },
+  "87": {
+    "city_ko": "청두",
+    "country_id": 19,
+    "crime_index": 13.24,
+    "safe_alone_day": 89.29,
+    "safe_alone_night": 77.85,
+    "emergency_contact": "경찰 110 / 구급 120 / 주중 대한민국 총영사관(청두) / 영사콜센터 +82-2-3210-0404"
+  },
+  "88": {
+    "city_ko": "칭다오",
+    "country_id": 19,
+    "crime_index": 7.54,
+    "safe_alone_day": 91.77,
+    "safe_alone_night": 75.94,
+    "emergency_contact": "경찰 110 / 구급 120 / 주중 대한민국 총영사관(칭다오) / 영사콜센터 +82-2-3210-0404"
+  },
+  "89": {
+    "city_ko": "장자제",
+    "country_id": 19,
+    "crime_index": 13.24,
+    "safe_alone_day": 89.29,
+    "safe_alone_night": 77.85,
+    "emergency_contact": "경찰 110 / 구급 120 / 장자제에 대한 전담 재외공관은 없으며, 인접한 관할 공관으로는 광저우 총영사관(주요 대응 담당) / 영사콜센터 +82-2-3210-0404"
+  },
+  "90": {
+    "city_ko": "발리",
+    "country_id": 20,
+    "crime_index": 50.51,
+    "safe_alone_day": 61.39,
+    "safe_alone_night": 45.81,
+    "emergency_contact": "경찰 경찰 110, 구급(응급의료) 118(현지 상황에 따라 119도 사용 가능) / 구급 118(구급) / 주 인도네시아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "91": {
+    "city_ko": "자카르타",
+    "country_id": 20,
+    "crime_index": 53.73,
+    "safe_alone_day": 64.69,
+    "safe_alone_night": 34.93,
+    "emergency_contact": "경찰 경찰 110, 구급(응급의료) 118(현지 상황에 따라 119도 사용 가능) / 구급 118(구급) / 주 인도네시아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "92": {
+    "city_ko": "롬복",
+    "country_id": 20,
+    "crime_index": 50.51,
+    "safe_alone_day": 61.39,
+    "safe_alone_night": 45.81,
+    "emergency_contact": "경찰 경찰 110, 구급(응급의료) 118(현지 상황에 따라 119도 사용 가능) / 구급 118(구급) / 주 인도네시아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "93": {
+    "city_ko": "족자카르타",
+    "country_id": 20,
+    "crime_index": 33.58,
+    "safe_alone_day": 82.12,
+    "safe_alone_night": 56.99,
+    "emergency_contact": "경찰 경찰 110, 구급(응급의료) 118(현지 상황에 따라 119도 사용 가능) / 구급 118(구급) / 주 인도네시아 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "94": {
+    "city_ko": "수라바야",
+    "country_id": 20,
+    "crime_index": 35.4,
+    "safe_alone_day": 79.83,
+    "safe_alone_night": 45.9,
+    "emergency_contact": "경찰 경찰 110, 구급(응급의료) 118(현지 상황에 따라 119도 사용 가능) / 구급 118(구급) / 주 수라바야 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "95": {
+    "city_ko": "오클랜드",
+    "country_id": 21,
+    "crime_index": 54.24,
+    "safe_alone_day": 68.57,
+    "safe_alone_night": 38.44,
+    "emergency_contact": "경찰 111 (뉴질랜드 경찰) / 구급 111 (응급 의료) / 주뉴질랜드 대한민국 총영사관(오클랜드) / 영사콜센터 +82-2-3210-0404"
+  },
+  "96": {
+    "city_ko": "퀸스타운",
+    "country_id": 21,
+    "crime_index": 11.39,
+    "safe_alone_day": 86.46,
+    "safe_alone_night": 74.74,
+    "emergency_contact": "경찰 111 (뉴질랜드 경찰) / 구급 111 (응급 의료) / 웰링턴 주뉴질랜드 대한민국 대사관이 관할(필요시 오클랜드 총영사관으로 문의) / 영사콜센터 +82-2-3210-0404"
+  },
+  "97": {
+    "city_ko": "크라이스트처치",
+    "country_id": 21,
+    "crime_index": 48.96,
+    "safe_alone_day": 73.98,
+    "safe_alone_night": 42.44,
+    "emergency_contact": "경찰 111 (뉴질랜드 경찰) / 구급 111 (응급 의료) / 웰링턴 주뉴질랜드 대한민국 대사관이 관할(필요시 오클랜드 총영사관으로 문의) / 영사콜센터 +82-2-3210-0404"
+  },
+  "98": {
+    "city_ko": "웰링턴",
+    "country_id": 21,
+    "crime_index": 32.84,
+    "safe_alone_day": 82.82,
+    "safe_alone_night": 56.85,
+    "emergency_contact": "경찰 111 (뉴질랜드 경찰) / 구급 111 (응급 의료) / 주뉴질랜드 대한민국 대사관(웰링턴) / 영사콜센터 +82-2-3210-0404"
+  },
+  "99": {
+    "city_ko": "로토루아",
+    "country_id": 21,
+    "crime_index": 61.04,
+    "safe_alone_day": 59.79,
+    "safe_alone_night": 27.92,
+    "emergency_contact": "경찰 111 (뉴질랜드 경찰) / 구급 111 (응급 의료) / 웰링턴 주뉴질랜드 대한민국 대사관이 관할(필요시 오클랜드 총영사관으로 문의) / 영사콜센터 +82-2-3210-0404"
+  },
+  "100": {
+    "city_ko": "빈",
+    "country_id": 22,
+    "crime_index": 28.41,
+    "safe_alone_day": 82.74,
+    "safe_alone_night": 65.32,
+    "emergency_contact": "경찰 133 / 구급 144 / 주오스트리아 대한민국 대사관(빈) – 오스트리아 전역의 재외공관 업무를 총괄 / 영사콜센터 +82-2-3210-0404"
+  },
+  "101": {
+    "city_ko": "잘츠부르크",
+    "country_id": 22,
+    "crime_index": 11.7,
+    "safe_alone_day": 88.44,
+    "safe_alone_night": 71.77,
+    "emergency_contact": "경찰 133 / 구급 144 / 주오스트리아 대한민국 대사관(빈)이 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "102": {
+    "city_ko": "할슈타트",
+    "country_id": 22,
+    "crime_index": 11.7,
+    "safe_alone_day": 88.44,
+    "safe_alone_night": 71.77,
+    "emergency_contact": "경찰 133 / 구급 144 / 주오스트리아 대한민국 대사관(빈)이 관할 / 영사콜센터 +82-2-3210-0404"
+  },
+  "103": {
+    "city_ko": "프라하",
+    "country_id": 23,
+    "crime_index": 16.89,
+    "safe_alone_day": 91.56,
+    "safe_alone_night": 73.69,
+    "emergency_contact": "경찰 158 / 구급 155 / 주 프라하 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "104": {
+    "city_ko": "체스키크룸로프",
+    "country_id": 23,
+    "crime_index": 16.89,
+    "safe_alone_day": 91.56,
+    "safe_alone_night": 73.69,
+    "emergency_contact": "경찰 158 / 구급 155 / 주 프라하 대한민국 대사관(관할) / 영사콜센터 +82-2-3210-0404"
+  },
+  "105": {
+    "city_ko": "자그레브",
+    "country_id": 24,
+    "crime_index": 14.78,
+    "safe_alone_day": 92.85,
+    "safe_alone_night": 80.02,
+    "emergency_contact": "경찰 192 (크로아티아 내 경찰 긴급전화), 112(유럽 연합 일반 비상번호) / 구급 194 (구급), 112(유럽 연합 일반 비상번호) / 자그레브에 위치한 대한민국 대사관(주크로아티아 대한민국 대사관) / 영사콜센터 +82-2-3210-0404"
+  },
+  "106": {
+    "city_ko": "두브로브니크",
+    "country_id": 24,
+    "crime_index": 8.76,
+    "safe_alone_day": 88.6,
+    "safe_alone_night": 86.18,
+    "emergency_contact": "경찰 192 (크로아티아 내 경찰 긴급전화), 112(유럽 연합 일반 비상번호) / 구급 194 (구급), 112(유럽 연합 일반 비상번호) / 해당 도시 관할 재외공관 없음. 필요 시 자그레브 대사관으로 문의 / 영사콜센터 +82-2-3210-0404"
+  },
+  "107": {
+    "city_ko": "스플리트",
+    "country_id": 24,
+    "crime_index": 26.62,
+    "safe_alone_day": 84.96,
+    "safe_alone_night": 71.14,
+    "emergency_contact": "경찰 192 (크로아티아 내 경찰 긴급전화), 112(유럽 연합 일반 비상번호) / 구급 194 (구급), 112(유럽 연합 일반 비상번호) / 해당 도시 관할 재외공관 없음. 필요 시 자그레브 대사관으로 문의 / 영사콜센터 +82-2-3210-0404"
+  },
+  "108": {
+    "city_ko": "이스탄불",
+    "country_id": 25,
+    "crime_index": 52.39,
+    "safe_alone_day": 69.72,
+    "safe_alone_night": 39.83,
+    "emergency_contact": "경찰 현지 경찰 긴급전화: 155 / 구급 현지 응급의료/구급전화: 112 / 주이스탄불 대한민국 총영사관(관할: 이스탄불) / 영사콜센터 +82-2-3210-0404"
+  },
+  "109": {
+    "city_ko": "카파도키아",
+    "country_id": 25,
+    "crime_index": 27.27,
+    "safe_alone_day": 85.2,
+    "safe_alone_night": 66.69,
+    "emergency_contact": "경찰 현지 경찰 긴급전화: 155 / 구급 현지 응급의료/구급전화: 112 / 주대한민국 재외공관(앙카라) - 안… 중앙아나돌라 지역 관할(카파도키아 포함) / 영사콜센터 +82-2-3210-0404"
+  },
+  "110": {
+    "city_ko": "안탈리아",
+    "country_id": 25,
+    "crime_index": 27.27,
+    "safe_alone_day": 85.2,
+    "safe_alone_night": 66.69,
+    "emergency_contact": "경찰 현지 경찰 긴급전화: 155 / 구급 현지 응급의료/구급전화: 112 / 주이스탄불 대한민국 총영사관(관할: 안탈리아 및 남부 해안 지역) / 영사콜센터 +82-2-3210-0404"
+  },
+  "111": {
+    "city_ko": "아테네",
+    "country_id": 26,
+    "crime_index": 57.56,
+    "safe_alone_day": 68.38,
+    "safe_alone_night": 38.69,
+    "emergency_contact": "경찰 100 / 구급 166 / 주 그리스 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "112": {
+    "city_ko": "산토리니",
+    "country_id": 26,
+    "crime_index": 23.08,
+    "safe_alone_day": 88.33,
+    "safe_alone_night": 76.67,
+    "emergency_contact": "경찰 100 / 구급 166 / 주 그리스 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "113": {
+    "city_ko": "마카오",
+    "country_id": 27,
+    "crime_index": 17.96,
+    "safe_alone_day": 86.44,
+    "safe_alone_night": 75.98,
+    "emergency_contact": "경찰 999(마카오 경찰 긴급전화) / 구급 119(화재/구급 긴급전화로도 이용 가능) / 주 마카오 대한민국 총영사관(또는 주재 대한민국 외교부 재외공관 현황에 따른 최신 명칭 확인 필요) / 영사콜센터 +82-2-3210-0404"
+  },
+  "114": {
+    "city_ko": "울란바토르",
+    "country_id": 28,
+    "crime_index": 55.64,
+    "safe_alone_day": 64.68,
+    "safe_alone_night": 38.81,
+    "emergency_contact": "경찰 112 (현지에서 확인 권장) / 구급 103 (현지에서 확인 권장) / 주 몽골 대한민국 대사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "115": {
+    "city_ko": "멕시코시티",
+    "country_id": 29,
+    "crime_index": 76.19,
+    "safe_alone_day": 52.01,
+    "safe_alone_night": 23.68,
+    "emergency_contact": "경찰 911 / 구급 911 / 주멕시코 대한민국 대사관(대한민국 외교부 산하) / 영사콜센터 +82-2-3210-0404"
+  },
+  "116": {
+    "city_ko": "칸쿤",
+    "country_id": 29,
+    "crime_index": 60.58,
+    "safe_alone_day": 64.76,
+    "safe_alone_night": 41.98,
+    "emergency_contact": "경찰 911 / 구급 911 / 주멕시코 대한민국 총영사관 / 영사콜센터 +82-2-3210-0404"
+  },
+  "117": {
+    "city_ko": "사이판",
+    "country_id": 30,
+    "crime_index": 35.29,
+    "safe_alone_day": 87.5,
+    "safe_alone_night": 70.83,
+    "emergency_contact": "경찰 911 (현지 긴급 상황 시 911 호출) / 구급 911 (현지 긴급 상황 시 911 호출) / 주호놀루루 대한민국 총영사관(대한민국 재외공관, 사이판 관할) / 영사콜센터 +82-2-3210-0404"
+  }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>야무짐(Yamujim) ERD</title>
+<style>
+  body { font-family: "Pretendard", "Malgun Gothic", system-ui, sans-serif; margin: 0; padding: 24px; background: #f7f7f5; color: #2c2c2a; }
+  header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+  h1 { font-size: 20px; font-weight: 600; margin: 0; }
+  .btns { display: flex; gap: 8px; }
+  button { font-size: 14px; padding: 8px 14px; border: 1px solid #534ab7; background: #534ab7; color: #fff; border-radius: 8px; cursor: pointer; }
+  button.outline { background: #fff; color: #534ab7; }
+  button:hover { opacity: 0.9; }
+  #diagram { background: #fff; border: 1px solid #e0e0da; border-radius: 12px; padding: 24px; overflow: auto; }
+  .hint { color: #5f5e5a; font-size: 13px; margin: 8px 0 0; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>야무짐(Yamujim) ERD &mdash; v6</h1>
+    <div class="btns">
+      <button id="dlSvg">SVG 다운로드</button>
+      <button id="dlPng" class="outline">PNG 다운로드</button>
+    </div>
+  </header>
+  <p class="hint">건강=국가 / 치안·문화팁=도시 단위. WEATHER는 실시간 API라 테이블 없음. 더블클릭해 열고 버튼으로 이미지 저장.</p>
+  <div id="diagram">
+    <pre class="mermaid">
+erDiagram
+  USER ||--|| USER_PREFERENCE : "취향(1:1)"
+  USER_PREFERENCE ||--|| TRAVEL_STYLE : "관광스타일 포함(1:1)"
+  TRAVEL_STYLE }o--o{ VISIT_PLACE_TYPE : "방문장소유형(M:N)"
+  USER ||--o{ TRIP : plans
+  TRIP ||--o{ RECOMMENDATION : produces
+  RECOMMENDATION ||--o{ RECOMMENDATION_ITEM : contains
+  ITEM ||--o{ RECOMMENDATION_ITEM : "appears in"
+  ITEM }o--o{ TRAVEL_TAG : "태그 매핑(M:N)"
+  COUNTRY ||--o{ CITY : has
+  TRIP }o--|| COUNTRY : targets
+  TRIP }o--|| CITY : targets
+  COUNTRY ||--|| COUNTRY_HEALTH : "건강(국가)"
+  CITY ||--|| CITY_SAFETY : "치안(도시)"
+  COUNTRY ||--o{ CULTURAL_TIP : "문화팁(국가)"
+  CITY }o--o{ TRAVEL_TAG : tagged
+
+  USER {
+    bigint id PK
+    string social_provider "kakao/google"
+    string social_id "UNIQUE with provider"
+    string email "NULL"
+    string nickname "NULL"
+    string gender "NULL"
+    string age_range "NULL"
+    datetime created_at
+  }
+  USER_PREFERENCE {
+    int id PK
+    int user_id FK
+    int hygiene_sensitivity "위생 1-5"
+    int preparedness "상황대비 1-5"
+    int heat_tolerance "더위 1-5"
+    int cold_tolerance "추위 1-5"
+    int korean_food_need "한식 1-5"
+  }
+  TRAVEL_STYLE {
+    int id PK
+    int preference_id FK
+    string movement_type
+    string consumption_type
+    string planning_type
+  }
+  VISIT_PLACE_TYPE {
+    int id PK
+    string name
+  }
+  TRIP {
+    int id PK
+    int user_id FK
+    int country_id FK
+    int city_id FK
+    string companion_type
+    int companion_count
+    date start_date
+    date end_date
+    bool local_language_ok
+    string accommodation_type
+  }
+  RECOMMENDATION {
+    int id PK
+    int trip_id FK
+    json notes
+    datetime created_at
+  }
+  RECOMMENDATION_ITEM {
+    int id PK
+    int recommendation_id FK
+    int item_id FK
+    string priority "필수/권장/선택"
+    string reason "챙겨야 하는 근거"
+  }
+  ITEM {
+    int id PK
+    string name
+    string default_tip "준비 이유/팁"
+  }
+  TRAVEL_TAG {
+    int id PK
+    string tag_name
+    string class "성향/테마/환경/지역/스타일"
+  }
+  COUNTRY {
+    int id PK
+    string name
+    string voltage
+    string plug_type
+    bool adapter_needed
+  }
+  CITY {
+    int id PK
+    int country_id FK
+    string name
+  }
+  COUNTRY_HEALTH {
+    int id PK
+    int country_id FK
+    bool tap_water_drinkable
+    bool shower_filter_required
+    bool yellow_fever_cert_required
+    json essential_vaccines "목적지 필수 백신만"
+    string vaccine_note
+  }
+  CITY_SAFETY {
+    int id PK
+    int city_id FK
+    float crime_index "Numbeo"
+    float safe_alone_day "Numbeo"
+    float safe_alone_night "Numbeo"
+    string emergency_contact "경찰/구급/관할공관/영사콜센터"
+  }
+  CULTURAL_TIP {
+    int id PK
+    int country_id FK
+    string theme "식사예절/온천/교통 등"
+    string content
+  }
+    </pre>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      themeVariables: { lineColor: '#888780', primaryColor: '#EEEDFE', primaryBorderColor: '#534AB7', primaryTextColor: '#26215C', fontSize: '13px' },
+      er: { useMaxWidth: true, entityPadding: 10 }
+    });
+    function getSvgEl() { return document.querySelector('#diagram svg'); }
+    function downloadSvg() {
+      const svg = getSvgEl(); if (!svg) return;
+      const data = new XMLSerializer().serializeToString(svg);
+      const blob = new Blob(['<?xml version="1.0" encoding="UTF-8"?>\n' + data], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download = 'yamujim_erd.svg'; a.click();
+      URL.revokeObjectURL(url);
+    }
+    function downloadPng() {
+      const svg = getSvgEl(); if (!svg) return;
+      const rect = svg.getBoundingClientRect(); const scale = 2;
+      const w = Math.ceil(rect.width), h = Math.ceil(rect.height);
+      const data = new XMLSerializer().serializeToString(svg);
+      const img = new Image();
+      const url = URL.createObjectURL(new Blob([data], { type: 'image/svg+xml;charset=utf-8' }));
+      img.onload = function () {
+        const canvas = document.createElement('canvas');
+        canvas.width = w * scale; canvas.height = h * scale;
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.scale(scale, scale); ctx.drawImage(img, 0, 0, w, h);
+        URL.revokeObjectURL(url);
+        canvas.toBlob(function (blob) {
+          const purl = URL.createObjectURL(blob);
+          const a = document.createElement('a'); a.href = purl; a.download = 'yamujim_erd.png'; a.click();
+          URL.revokeObjectURL(purl);
+        }, 'image/png');
+      };
+      img.src = url;
+    }
+    document.getElementById('dlSvg').addEventListener('click', downloadSvg);
+    document.getElementById('dlPng').addEventListener('click', downloadPng);
+  </script>
+</body>
+</html>

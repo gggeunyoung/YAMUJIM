@@ -1,0 +1,10 @@
+Django==5.2.4
+djangorestframework
+drf-spectacular
+djangorestframework-simplejwt
+django-cors-headers
+openai
+python-dotenv
+pydantic
+requests
+redis

@@ -1,0 +1,275 @@
+{
+  "1": {
+    "country_ko": "일본",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "2": {
+    "country_ko": "베트남",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "일본뇌염 백신",
+      "A형간염 백신",
+      "장티푸스 백신",
+      "광견병 백신",
+      "말라리아 예방약"
+    ],
+    "vaccine_note": "베트남 여행 시 지역 특유의 실질 위험에 따라 추가로 꼭 맞아야 할 백신/예방약이 있을 수 있습니다. 권장 품목은 일본뇌염 백신, A형간염 백신, 장티푸스 백신, 광견병 백신 및 말라리아 예방약으로 분류됩니다. 여행 일정과 방문 지역에 따라 필요성이 달라지므로 출발 전 의료기관에서 최신 권고를 확인하시기 바랍니다."
+  },
+  "3": {
+    "country_ko": "태국",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "A형간염",
+      "장티푸스",
+      "일본뇌염"
+    ],
+    "vaccine_note": "태국의 지역별 감염 위험에 따라 추가 접종이 권고되는 백신: A형간염, 장티푸스, 일본뇌염."
+  },
+  "4": {
+    "country_ko": "미국",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "5": {
+    "country_ko": "필리핀",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "A형 간염 백신",
+      "장티푸스 백신",
+      "광견병 백신"
+    ],
+    "vaccine_note": "필리핀에서 실제로 추가로 꼭 맞아야 할 백신은 A형 간염, 장티푸스, 광견병 백신이 있습니다."
+  },
+  "6": {
+    "country_ko": "대만",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "7": {
+    "country_ko": "괌",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "8": {
+    "country_ko": "싱가포르",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "9": {
+    "country_ko": "홍콩",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "10": {
+    "country_ko": "이탈리아",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "11": {
+    "country_ko": "프랑스",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "12": {
+    "country_ko": "스페인",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "13": {
+    "country_ko": "영국",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "14": {
+    "country_ko": "스위스",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "15": {
+    "country_ko": "독일",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "16": {
+    "country_ko": "말레이시아",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "말라리아 예방약",
+      "일본뇌염 백신",
+      "광견병 백신"
+    ],
+    "vaccine_note": "말레이시아의 지역 특유 위험으로 말라리아 유행 지역에서 말라리아 예방약이 필요할 수 있으며, 농촌·시골 지역의 장기 체류나 노출이 높은 여행자의 경우 일본뇌염 백신과 광견병 백신도 고려해야 합니다."
+  },
+  "17": {
+    "country_ko": "호주",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "18": {
+    "country_ko": "캐나다",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "19": {
+    "country_ko": "중국",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "일본뇌염 백신",
+      "말라리아 예방약",
+      "광견병 백신"
+    ],
+    "vaccine_note": "일본뇌염 백신, 말라리아 예방약, 광견병 백신은 지역 특유의 실질 위험에 따른 추가 예방접종으로 권고될 수 있습니다."
+  },
+  "20": {
+    "country_ko": "인도네시아",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "일본뇌염 백신",
+      "광견병 백신",
+      "말라리아 예방약"
+    ],
+    "vaccine_note": "일본뇌염 백신, 광견병 백신, 말라리아 예방약은 인도네시아의 지역별 위험에 대응하기 위한 추가 예방 접종/약물입니다."
+  },
+  "21": {
+    "country_ko": "뉴질랜드",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "22": {
+    "country_ko": "오스트리아",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "23": {
+    "country_ko": "체코",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "24": {
+    "country_ko": "크로아티아",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "25": {
+    "country_ko": "튀르키예",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "26": {
+    "country_ko": "그리스",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "27": {
+    "country_ko": "마카오",
+    "tap_water_drinkable": true,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  },
+  "28": {
+    "country_ko": "몽골",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "A형간염",
+      "장티푸스",
+      "광견병"
+    ],
+    "vaccine_note": "몽골 방문 시 추가로 꼭 맞아야 할 백신: A형간염, 장티푸스, 광견병."
+  },
+  "29": {
+    "country_ko": "멕시코",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [
+      "A형간염",
+      "장티푸스"
+    ],
+    "vaccine_note": "멕시코 방문 시 주의가 필요한 백신: A형간염, 장티푸스"
+  },
+  "30": {
+    "country_ko": "사이판",
+    "tap_water_drinkable": false,
+    "shower_filter_required": false,
+    "yellow_fever_cert_required": false,
+    "essential_vaccines": [],
+    "vaccine_note": "기본 예방접종 외 추가로 꼭 맞아야 할 백신은 없습니다"
+  }
+}
